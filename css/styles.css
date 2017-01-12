@@ -1,9 +1,4 @@
 /* fonts */
-
-* {
-  font-family: FreeSerif, Times, serif;
-}
-
 h1, h2, h3, h4, h5, h6, strong {
   font-family: FreeSans, Helvetica, sans-serif;
 }
@@ -12,4 +7,5 @@ h1, h2, h3, h4, h5, h6, strong {
 div {
   padding: 0.5em;
   line-height: 1.25em;
+  font-family: FreeSerif, Times, serif;
 }
