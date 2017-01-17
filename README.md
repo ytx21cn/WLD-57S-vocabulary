@@ -18,8 +18,11 @@ If you want to collaborate with me, please send me [pull requests](https://githu
 
 ### Directory Structure of the Repository
 #### Course Materials
-* Links to vocabularies from all the course materials are placed under **three** directories: **EL** (stands for _Exploring Language_, not yet created), **SSW** (stands for _Strategies for Successful Writing_), and **FromInstructor**.
-  * **Note:** The directory names are **case-sensitive**. Using the incorrect cases in hyperlinks will result in an invalid link.
+* Links to vocabularies from **all** the course materials are placed under **three** directories: **EL** (stands for _Exploring Language_, not yet created), **SSW** (stands for _Strategies for Successful Writing_), and **FromInstructor**.
+  * **Note:** The directory names are **case-sensitive**. Using the incorrect cases in a hyperlink will result in an invalid link.
+* Each .html file under each directory for course materials is named using the title of the passages in which the vocabulary words show up. For each file name, **turn the spaces into hyphens ("-")**, and use **all lowercase**. For example, the words coming from the reading _The Allegory of the Cave_ by Plato is listed in the file named `the-allegory-of-the-cave.html`.
+
+### Index Page ###
 
 #### Stylesheet
 * There is currently one [stylesheet](https://github.com/ytx21cn/WLD-57S-vocabulary/blob/master/css/styles.css), which contains the styling information for **all** the pages in this repository. I have created it just for the ease of reading pages -- do not expect a fantastic appearance for the pages. **_And, generally, you do not need to edit it._**
