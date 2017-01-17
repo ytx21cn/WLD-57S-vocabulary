@@ -22,11 +22,20 @@ If you want to collaborate with me, please send me [pull requests](https://githu
   * **Note:** The directory names are **case-sensitive**. Using the incorrect cases in a hyperlink will result in an invalid link.
 * Each `.html` file under each directory for course materials is named using the title of the passages in which the vocabulary words show up. For each file name, **turn the spaces into hyphens ("-")**, and use **all lowercase**. For example, the words coming from the reading **_The Allegory of the Cave_ by Plato** are listed in the file named `the-allegory-of-the-cave.html`.
 
-#### `Index.html` Page ####
-Here is the link to the `index.html` file of this repository: https://github.com/ytx21cn/WLD-57S-vocabulary/blob/master/index.html  
-Here is the link to the index page on the GitHub page: https://ytx21cn.github.io/WLD-57S-vocabulary/
+#### Stylesheet
+* There is currently one [stylesheet](https://github.com/ytx21cn/WLD-57S-vocabulary/blob/master/css/styles.css), which contains the styling information for **all** the pages in this repository. I have created it just for the ease of reading pages -- do not expect a fantastic appearance for the pages. **_And, generally, you do not need to edit it._**
+* **How to link the stylesheet to the pages:**
+ * For `index.html` page: `<link rel="stylesheet" href="css/styles.css" >`
+ * For vocabulary pages: `<link rel="stylesheet" href="../css/styles.css" >`
+ * Include these code in the `<head></head>` tags before the `<body></body>` tags.
 
-##### Organization #####
+### `Index.html` Page ###
+This is the index page for the whole GitHub project.
+
+* Link to the `index.html` file of this repository: https://github.com/ytx21cn/WLD-57S-vocabulary/blob/master/index.html  
+* Link to the index page on the GitHub page: https://ytx21cn.github.io/WLD-57S-vocabulary/
+
+#### Organization ####
 First, write the **Level 1 header** of the page: `<h1>UC Davis Winter Quarter 2017 <a href="http://elw.ucdavis.edu/elw-info" target="_blank">WLD 57S</a> Vocabulary</h1>`. Note that there is a link to the [UC Davis ELWR information page](http://elw.ucdavis.edu/elw-info).  
 
 Second, set up the **Level 2 headers** of the page: **_Exploring Language_**, **_Strategies for Successful Writing_**, and **Materials from Instructor**.
@@ -40,10 +49,3 @@ The last step is creating a **list of passages** read in each month, under each 
  _Passage (in **italics**)_ by Author
 * When creating lists, use `<ul></ul>` to enclose a list, and use `<li></li>` between each pair of `<ul></ul>` to enclose each list item.
 * Turn each _**title** (not including authors' names)_ into a hyperlink that leads to corresponding pages, e.g. [`<li><em><a href="SSW/the-appeal-of-the-androgynous-man.html">The Appeal of the Androgynous Man</a></em> by Amy Gross (pp. 30-31)</li>`](https://ytx21cn.github.io/WLD-57S-vocabulary/SSW/the-appeal-of-the-androgynous-man.html)
-
-#### Stylesheet
-* There is currently one [stylesheet](https://github.com/ytx21cn/WLD-57S-vocabulary/blob/master/css/styles.css), which contains the styling information for **all** the pages in this repository. I have created it just for the ease of reading pages -- do not expect a fantastic appearance for the pages. **_And, generally, you do not need to edit it._**
-* **How to link the stylesheet to the pages:**
- * For `index.html` page: `<link rel="stylesheet" href="css/styles.css" >`
- * For vocabulary pages: `<link rel="stylesheet" href="../css/styles.css" >`
- * Include these code in the `<head></head>` tags before the `<body></body>` tags.
