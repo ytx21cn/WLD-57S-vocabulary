@@ -10,5 +10,8 @@ Read about Entry Leve Writing Requirement of UC Davis: http://elw.ucdavis.edu/el
 
 ## Collaboration
 To all WLD 57S students in Professor Ellen Abrams' class:  
-If you want to collaborate with me, please send me [pull requests](https://github.com/ytx21cn/WLD-57S-vocabulary/pulls) and indicate your **real** name.
+If you want to collaborate with me, please send me [pull requests](https://github.com/ytx21cn/WLD-57S-vocabulary/pulls) and indicate your **real** name.  
 * Help for pull requests: https://help.github.com/articles/about-pull-requests/
+
+## My coding style
+**Here are some brief descriptions of my coding styles. If you want to collaborate with me, you should agree with these coding styles before you contribute.** This is the consideration for maintaining the consistency of styles of codes written by different people, and for the ease of reading and writing codes.
