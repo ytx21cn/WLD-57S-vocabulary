@@ -39,7 +39,7 @@ The last step is creating a **list of passages** read in each month, under each 
 * For passages from instructor, follow this format, and list them in **alphabetical order**:  
  _Passage (in **italics**)_ by Author
 * When creating lists, use `<ul></ul>` to enclose a list, and use `<li></li>` between each pair of `<ul></ul>` to enclose each list item.
-* Turn each title into a hyperlink that leads to corresponding pages, e.g. [`<li><em><a href="SSW/the-appeal-of-the-androgynous-man.html">The Appeal of the Androgynous Man</a></em> by Amy Gross (pp. 30-31)</li>`](https://ytx21cn.github.io/WLD-57S-vocabulary/SSW/the-appeal-of-the-androgynous-man.html)
+* Turn each _**title** (not including authors' names)_ into a hyperlink that leads to corresponding pages, e.g. [`<li><em><a href="SSW/the-appeal-of-the-androgynous-man.html">The Appeal of the Androgynous Man</a></em> by Amy Gross (pp. 30-31)</li>`](https://ytx21cn.github.io/WLD-57S-vocabulary/SSW/the-appeal-of-the-androgynous-man.html)
 
 #### Stylesheet
 * There is currently one [stylesheet](https://github.com/ytx21cn/WLD-57S-vocabulary/blob/master/css/styles.css), which contains the styling information for **all** the pages in this repository. I have created it just for the ease of reading pages -- do not expect a fantastic appearance for the pages. **_And, generally, you do not need to edit it._**
