@@ -49,3 +49,22 @@ The last step is creating a **list of passages** read in each month, under each 
  _Passage (in **italics**)_ by Author
 * When creating lists, use `<ul></ul>` to enclose a list, and use `<li></li>` between each pair of `<ul></ul>` to enclose each list item.
 * Turn each _**title** (not including authors' names)_ into a hyperlink that leads to corresponding pages, e.g. [`<li><em><a href="SSW/the-appeal-of-the-androgynous-man.html">The Appeal of the Androgynous Man</a></em> by Amy Gross (pp. 30-31)</li>`](https://ytx21cn.github.io/WLD-57S-vocabulary/SSW/the-appeal-of-the-androgynous-man.html)
+
+### Vocabulary Pages
+* The heading is enclosed by `<h1></h1>`. Include the _name of the passage_ and name(s) of the author(s).
+* Below the heading there must be a **"← Return to Main Page"** link: `<a href="../index.html">← Return to Main Page</a>`.
+* List the word entries in **alphabetical** order.
+* Use `<div></div>` to enclose each entry. Then, for each entry, use two pairs of `<p></p>` tags.
+ * The first pair contains the **word entry (enclosed by `<strong></strong>`)** and its _part of speech (enclosed by`<em></em>`)_.
+ * The second pair contains its definition or explanation.
+* Leave **one blank line** between two pairs of `<div></div>` tags, in order to improve readability of codes.
+* Here is one sample that shows the formatting of the code: 
+`<div>
+  <p><strong>surmise</strong> <em>v.</em></p>
+  <p>To conjecture or guess.</p>
+ </div>
+
+ <div>
+  <p><strong>trifle</strong> <em>n.</em></p>
+  <p>A thing of little value or importance.</p>
+ </div>`
