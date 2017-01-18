@@ -29,7 +29,18 @@ If you want to collaborate with me, please send me [pull requests](https://githu
  * For vocabulary pages: `<link rel="stylesheet" href="../css/styles.css" >`
  * Include these code in the `<head></head>` tags before the `<body></body>` tags.
 
-### `Index.html` Page ###
+### Head of all pages
+
+#### `<html></html>` tag
+* Please include the **language and country specification**: `<html lang="en-US"></html>`.
+
+#### `<head></head>` tag
+These pieces information must be included in the `<head></head>` tag: 
+* `<meta charset="UTF-8">` to indicate the **character set** of the page.
+* `<link rel="stylesheet" href="../css/styles.css" >` to indicate the **stylesheet** to be used.
+* `<title></title>` to indicate the **title** of the document, which is also the title to be displayed on the browser's title bar as well as tabs.
+
+### `Index.html` Page
 This is the index page for the whole GitHub project.
 
 * Link to the `index.html` file of this repository: https://github.com/ytx21cn/WLD-57S-vocabulary/blob/master/index.html  
@@ -51,8 +62,11 @@ The last step is creating a **list of passages** read in each month, under each 
 * Turn each _**title** (not including authors' names)_ into a hyperlink that leads to corresponding pages, e.g. [`<li><em><a href="SSW/the-appeal-of-the-androgynous-man.html">The Appeal of the Androgynous Man</a></em> by Amy Gross (pp. 30-31)</li>`](https://ytx21cn.github.io/WLD-57S-vocabulary/SSW/the-appeal-of-the-androgynous-man.html)
 
 ### Vocabulary Pages
+#### Heading
 * The heading is enclosed by `<h1></h1>`. Include the _name of the passage_ and name(s) of the author(s).
 * Below the heading there must be a **"← Return to Main Page"** link: `<a href="../index.html">← Return to Main Page</a>`.
+
+#### Word List
 * List the word entries in **alphabetical** order.
 * Use `<div></div>` to enclose each entry. Then, for each entry, use two pairs of `<p></p>` tags.
  * The first pair contains the **word entry (enclosed by `<strong></strong>`)** and its _part of speech (enclosed by`<em></em>`)_.
