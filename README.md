@@ -59,7 +59,8 @@ The last step is creating a **list of passages** read in each month, under each 
  * The second pair contains its definition or explanation.
 * Leave **one blank line** between two pairs of `<div></div>` tags, in order to improve readability of codes.
 * Here is one sample that shows the formatting of the code: 
-`<div>
+```
+ <div>
   <p><strong>surmise</strong> <em>v.</em></p>
   <p>To conjecture or guess.</p>
  </div>
@@ -67,4 +68,5 @@ The last step is creating a **list of passages** read in each month, under each 
  <div>
   <p><strong>trifle</strong> <em>n.</em></p>
   <p>A thing of little value or importance.</p>
- </div>`
+ </div>
+```
