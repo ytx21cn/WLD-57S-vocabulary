@@ -7,9 +7,14 @@ body, div {
   font-size: 1em;
 }
 
+/* lists on index page */
+ul {
+  line-height: 1.5em;
+}
+
 /* div */
 div {
-  padding: 0.5em;
-  line-height: 1.25em;
+  padding: 0.25em;
+  line-height: 1em;
   font-family: FreeSerif, Times, serif;
 }
